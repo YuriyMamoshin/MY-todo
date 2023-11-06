@@ -1,11 +1,14 @@
 
 import './App.css'
+import TodoForm from './TodoForm'
+import TodoList from './TodoList'
 
 function App() {
 
   return (
     <>
-<p>Blank slate</p>
+<TodoForm></TodoForm>
+<TodoList></TodoList>
     </>
   )
 }
